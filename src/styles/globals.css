@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+    .link {
+        @apply cursor-pointer;
+    }
+
+    .link:hover {
+        text-decoration: underline;
+    }
+
+    
+
+}
